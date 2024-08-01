@@ -1,7 +1,7 @@
 spec:
-  name: CrudBook
+  name: CrudBooks
   services:
     - name: web
       git:
         branch: master
-        repo_clone_url: https://github.com/jamwitk/crud-book.git
+        repo_clone_url: https://github.com/jamwitk/crud-books.git

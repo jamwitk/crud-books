@@ -1,5 +1,5 @@
-name: crud-book
+name: crud-books
 services:
   - name: web
-    github: jamwitk/crud-book
+    github: jamwitk/crud-books
     branch: master

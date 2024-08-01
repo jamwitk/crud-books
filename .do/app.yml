@@ -1,5 +1,14 @@
 name: CrudBook
 services:
   - name: web
-    github: jamwitk/CrudBook
-    branch: master
+    environment_slug: go
+    github:
+      repo: jamwitk/CrudBook
+      branch: main
+    build_command: "go build -o CrudBook ./cmd/CrudBook"
+    run_command: "./CrudBook"
+    env:
+      DATABASE_URL: "postgres://username:password@db:5432/mydatabase"
+    http_port: 8080
+    instance_count: 1
+    instance_size_slug: basic-xxs

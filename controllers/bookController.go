@@ -1,10 +1,10 @@
 package controllers
 
 import (
-	"backend/initializers"
-	"backend/models"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
+	"github.com/jamwitk/crud-books/initializers"
+	"github.com/jamwitk/crud-books/models"
 	"gorm.io/gorm/utils"
 )
 

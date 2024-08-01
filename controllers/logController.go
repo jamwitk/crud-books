@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"backend/initializers"
-	"backend/models"
 	"github.com/gin-gonic/gin"
+	"github.com/jamwitk/crud-books/initializers"
+	"github.com/jamwitk/crud-books/models"
 	"time"
 )
 

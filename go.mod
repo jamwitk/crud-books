@@ -1,4 +1,4 @@
-module backend
+module github.com/jamwitk/crud-books
 
 go 1.22.3
 

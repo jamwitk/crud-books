@@ -1,8 +1,8 @@
 package main
 
 import (
-	"backend/initializers"
-	"backend/models"
+	"github.com/jamwitk/crud-books/initializers"
+	"github.com/jamwitk/crud-books/models"
 )
 
 func init() {

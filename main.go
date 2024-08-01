@@ -1,8 +1,8 @@
 package main
 
 import (
-	"backend/controllers"
-	"backend/initializers"
+	"github.com/jamwitk/crud-books/controllers"
+	"github.com/jamwitk/crud-books/initializers"
 
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"

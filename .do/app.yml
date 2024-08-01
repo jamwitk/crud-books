@@ -1,0 +1,5 @@
+name: CrudBook
+services:
+  - name: web
+    github: jamwitk/CrudBook
+    branch: master

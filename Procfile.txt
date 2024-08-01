@@ -1,1 +1,1 @@
-web: bin/crud-books
+web: ./crud-books

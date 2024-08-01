@@ -4,4 +4,4 @@ spec:
     - name: web
       git:
         branch: master
-        repo_clone_url: https://github.com/jamwitk/CrudBook.git
+        repo_clone_url: https://github.com/jamwitk/crud-book.git
